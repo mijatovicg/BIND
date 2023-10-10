@@ -1,1 +1,6 @@
 # BIND
+
+Here is demonstrated the framework that develops information-theoretic measures quantifying how two nodes interact in a redundant or synergistic way with the rest of the network, and employs these measures for reconstructing the functional structure of the network. The measures are implemented for both static and dynamic networks mapped respectively by random variables and random processes using plug-in and model-based entropy estimators. The framework is explained in the detail in the paper “Assessing High-Order Links in Cardiovascular and Respiratory Networks via Static and Dynamic Information Measures” by G. Mijatovic, L. Sparacino, Y. Antonacci, M. Javorka, D. Marinazzo, S. Stramaglia, and L. Faes.
+
+The BIND toolbox includes two scripts, "s1_simu1.m" and "s2_simu2.m," designed to simulate static and dynamic networks mapped respectively by binary random variables and Gaussian random processes. These simulations serve to demonstrate the framework's capacity to represent high-order interactions as networks and to identify statistical patterns related to cascade, common drive, and common cause effects.
+The third script "s3_subj.m" serves to demonstrate how the proposed approach can be applied to a real-data subject.
